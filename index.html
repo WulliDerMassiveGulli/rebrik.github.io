@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebrik GmbH - Hochwertige Pflastersteine aus recyceltem Plastik</title>
+  <style>
+    /* Globale Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Farbpalette */
+    :root {
+      --primary-color: #8B9467; /* Grün */
+      --secondary-color: #455A64; /* Grau */
+      --accent-color: #964B00; /* Erdbraun */
+    }
+    
+    /* Header */
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    /* Navigation */
+    nav {
+      background-color: var(--secondary-color);
+      padding: 1em;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Sprachumschalter */
+    .language-switcher {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    /* Produktübersicht */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .product {
+      margin: 20px;
+      width: calc(33.33% - 20px);
+    }
+    
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    
+    /* Kontaktformular */
+    form {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Footer */
+    footer {
+      background-color: var(--secondary-color);
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      clear: both;
+    }
+    
+    /* Responsive Design */
+    @media only screen and (max-width: 768px) {
+      .product {
+        width: calc(50% - 20px);
+      }
+    }
+    
+    @media only screen and (max-width: 480px) {
+      .product {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rebrik GmbH</h1>
+    <p>Hochwertige Pflastersteine aus recyceltem Plastik</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#startseite">Startseite</a></li>
+      <li><a href="#produkte">Produkte</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <div class="language-switcher">
+      <button id="language-switcher-de" onclick="switchLanguage('de')">Deutsch</button>
+      <button id="language-switcher-en" onclick="switchLanguage('en')">English</button>
+    </div>
+  </nav>
+  <main>
+    <section id="startseite">
+      <h2>Willkommen bei Rebrik GmbH</h2>
+      <p>Wir verkaufen hochwertige Pflastersteine der Marke Gjenge Makers, die aus recyceltem Plastik hergestellt werden.</p>
+    </section>
+    <section id="produkte">
+      <h2>Unsere Produkte</h2>
+      <div class="products">
+        <div class="product">
+          <img src="platzhalter.jpg" alt="Produkt 1">
+          <h3>Produkt 1</h3>
+          <p>Kurzbeschreibung</p>
+        </div>
+        <div class="product">
+          <img src="platzhalter.jpg" alt="Produkt 2">
+          <h3>Produkt 2</h3>
+          <p>Kurzbeschreibung</p>
+        </div>
+        <div class
